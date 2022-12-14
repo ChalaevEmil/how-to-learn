@@ -76,6 +76,7 @@
 
 .description {
   margin-top: 100px;
+  background-color: white;
 }
 
 .two-columns {
@@ -117,6 +118,7 @@
 
 .digits {
   margin: 100px auto;
+  background-color: white;
 }
 
 .section-title {
@@ -146,7 +148,7 @@
   margin: 0 auto;
 }
 
-.digits-table__cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
@@ -213,16 +215,16 @@
   flex-direction: column;
   overflow: hidden;
   padding-bottom: 90px;
-  background-color: black;
+  background-color: #1f1f1f;
 }
 
-.kaufman-title_theme_dark {
+.section-title_theme_dark {
   color: white;
   z-index: 2;
   margin-top: 90px;
 }
 
-.kaufman-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 2;
 }
@@ -243,22 +245,19 @@
 }
 
 .footer {
+  background-color: #1f1f1f;
   display: flex;
-  position: relative;
   align-items: center;
   flex-direction: column;
   min-height: 350px;
-  background-color: black;
-  color: #f2f2f2;
 }
 
 .footer__column {
-  box-sizing: border-box;
   display: flex;
-  position: absolute;
-  top: 60px;
-  bottom: 40px;
   justify-content: space-between;
+  flex-grow: 1;
+  margin-top: 60px;
+  margin-bottom: 40px;
   width: 90%;
 }
 
@@ -273,6 +272,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: white;
 }
 
 .footer__column-heading {
@@ -280,6 +280,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  color: white;
 }
 
 .footer__column-links {
