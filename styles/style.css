@@ -32,7 +32,9 @@
 }
 
 .header__title {
-  width: 730px;
+  margin: 0;
+  max-width: 730px;
+  width: 100%;
   align-self: center;
   margin-left: 64px;
   z-index: 2;
@@ -42,10 +44,12 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   z-index: 2;
   line-height: 25px;
   font-size: 18px;
@@ -89,7 +93,8 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -122,7 +127,7 @@
 }
 
 .section-title {
-  width: 60%;
+  max-width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -131,7 +136,7 @@
 }
 
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -154,18 +159,18 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0;
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
-  margin-bottom: 0;
 }
 
 .feynman {
@@ -178,11 +183,13 @@
   background-size: 867px 637px;
   background-repeat: no-repeat;
   background-position: left bottom;
-  height: 890px;
+  min-height: 890px;
 }
 
 .feynman__title {
-  width: 648px;
+  margin: 0;
+  max-width: 648px;
+  width: 100%;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -192,6 +199,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -240,8 +248,10 @@
   position: absolute;
   width: 877px;
   height: 877px;
+  background-size: 877px 877px;
   right: -210px;
   z-index: 1;
+  background-image: url(../images/kaufman-triangle.svg);
 }
 
 .footer {
@@ -252,7 +262,7 @@
   min-height: 350px;
 }
 
-.footer__column {
+.footer__columns {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
@@ -269,10 +279,13 @@
 }
 
 .footer__author {
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   color: white;
+  margin-bottom: 18px;
+  margin-top: 18px;
 }
 
 .footer__column-heading {
@@ -285,7 +298,10 @@
 
 .footer__column-links {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
