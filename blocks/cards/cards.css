@@ -3,6 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap: 60px 100px;
+  column-gap: 100px;
   max-width: 920px;
 }
